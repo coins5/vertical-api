@@ -1,3 +1,3 @@
 class Exam < ApplicationRecord
-  validates_presence_of :name, :description, :minimo, :promedio, :maximo
+  validates_presence_of :tipo_examen, :name, :description, :minimo, :promedio, :maximo
 end
